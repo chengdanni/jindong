@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="soexample.umeng.com.jindong">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/a"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Zhuyemian"></activity>
+        <activity android:name=".Activity.login"></activity>
+        <activity android:name=".Activity.registered"></activity>
+        <activity android:name=".Activity.Details"></activity>
+        <activity android:name=".Fluidlayout.Fluid"></activity>
+        <activity android:name=".Activity.syarch"></activity>
+        <activity android:name=".Activity.Flicking"></activity>
+        <activity android:name=".Activity.Sheupthe"></activity>
+    </application>
+
+</manifest>

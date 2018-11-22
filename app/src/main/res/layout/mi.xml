@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#d43c3c">
+
+        <ImageView
+            android:id="@+id/shizhi"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/shezhi" />
+
+        <Button
+            android:id="@+id/liu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#d43c3c"
+            android:text="流式布局" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ww" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="23dp"
+            android:text="请点击头像登录" />
+
+        <soexample.umeng.com.jindong.Activity.Waterlines
+            android:id="@+id/wave_view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true" />
+        <!--<Button-->
+        <!--android:id="@+id/gao"-->
+        <!--android:background="#d43c3c"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="高德" />-->
+    </RelativeLayout>
+
+
+</LinearLayout>
